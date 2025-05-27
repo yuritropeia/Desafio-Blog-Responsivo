@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Desafio: Desenvolvendo um Blog Responsivo</title>
+  </head>
+
+  <body>
+    <!--HEADER-->
+    <header id="Header">
+      <h1 id="DevNews">The Dev News</h1>
+    </header>
+
+    <div class="main-content container">
+      <main class="main-column">
+        <section class="featured-post">
+          <img src="Imagens/article.jpg" alt="Cidade" class="featured-image" />
+          <div class="featured-text">
+            <p>opinião</p>
+            <h1>Como é ser um desenvolvedor</h1>
+            <p><strong>By</strong> Fabio Tetsuo</p>
+          </div>
+        </section>
+
+        <section class="recent-posts">
+          <div class="recent-posts-title">
+            <h3>Posts mais recentes</h3>
+            <p>Ver todas</p>
+          </div>
+
+          <div class="post-grid">
+            <article class="post-card">
+              <img
+                src="Imagens/card1.svg"
+                alt="Pessoa segurando um celular"
+                class="post-image"
+              />
+              <span class="category">Desenvolvimento</span>
+              <h4>Desenvolvimento mobile</h4>
+              <p class="author-date"><strong>By</strong> Fabio Tetsuo</p>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac
+                sagittis id a etiam. Tellus lacinia massa arcu nulla sed purus
+                in at.
+              </p>
+              <p class="author-date">22 Agosto 2022</p>
+            </article>
+
+            <article class="post-card">
+              <img
+                src="Imagens/card2.svg"
+                alt="Pessoa trabalhando em um notebook"
+                class="post-image"
+              />
+              <span class="category">Saúde</span>
+              <h4>Balancear vida profissional e pessoal</h4>
+              <p class="author-date"><strong>By</strong> Ithalo Santana</p>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet consectetur. Sit consectetur at
+                consectetur sed nisl tempor.
+              </p>
+              <p class="author-date">22 Agosto 2022</p>
+            </article>
+
+            <article class="post-card">
+              <img
+                src="Imagens/card3.svg"
+                alt="Código em um editor de texto"
+                class="post-image"
+              />
+              <span class="category">Desenvolvimento</span>
+              <h4>Configurando VSCode</h4>
+              <p class="author-date"><strong>By</strong> Fabio Tetsuo</p>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac
+                sagittis id a etiam. Tellus lacinia massa arcu nulla sed purus
+                in at.
+              </p>
+              <p class="author-date">22 Agosto 2022</p>
+            </article>
+
+            <article class="post-card">
+              <img
+                src="Imagens/card4.svg"
+                alt="Setup de monitores"
+                class="post-image"
+              />
+              <span class="category">Produtividade</span>
+              <h4>2 monitores ou 1 ultrawide?</h4>
+              <p class="author-date"><strong>By</strong> Viviano da Silva</p>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet consectetur. Arcu tellus adipiscing
+                sagittis tristique. Eget viverra placerat amet. Non velit proin
+                mattis. Nunc ligula donec a Velit senectus amet nulla.
+              </p>
+              <p class="author-date">22 Agosto 2022</p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <aside class="sidebar">
+        <section class="popular-posts">
+          <h3>Posts populares</h3>
+          <div class="popular-post-item">
+            <img
+              src="Imagens/cardSide1.svg"
+              alt="Imagem do post popular"
+              class="popular-post-image"
+            />
+            <div>
+              <p class="popular-post-title">Desenvolvimento atual</p>
+              <p class="popular-post-date">22 Agosto 2022</p>
+            </div>
+          </div>
+          <div class="popular-post-item">
+            <img
+              src="Imagens/cardSide2.svg"
+              alt="Imagem do post popular"
+              class="popular-post-image"
+            />
+            <div>
+              <p class="popular-post-title">Gitlab vs GitHub</p>
+              <p class="popular-post-date">22 Agosto 2022</p>
+            </div>
+          </div>
+          <div class="popular-post-item">
+            <img
+              src="Imagens/cardSide3.svg"
+              alt="Imagem do post popular"
+              class="popular-post-image"
+            />
+            <div>
+              <p class="popular-post-title">Café atrapalha?</p>
+              <p class="popular-post-date">22 Agosto 2022</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="categories">
+          <h3>Categorias</h3>
+          <div>
+            <p>> Saúde</p>
+            <p>(1)</p>
+          </div>
+          <div>
+            <p>> Desenvolvimento</p>
+            <p>(2)</p>
+          </div>
+          <div>
+            <p>> Produtividade</p>
+            <p>(2)</p>
+          </div>
+          <div>
+            <p>> Opinião</p>
+            <p>(1)</p>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <!--FOOTER-->
+    <footer id="Footer">
+      <h1 id="Copyright">Copyright@The Dev News</h1>
+    </footer>
+  </body>
+</html>
